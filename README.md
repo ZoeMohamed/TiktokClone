@@ -9,11 +9,6 @@ This repository contains a TikTok clone built using Flutter, with GetX for state
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Project](#running-the-project)
-- [Project Structure](#project-structure)
-- [Firebase Setup](#firebase-setup)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
