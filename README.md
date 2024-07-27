@@ -1,6 +1,6 @@
-# TikTok Clone with GetX in Flutter
+# TikTok Clone with GetX and Firebase in Flutter
 
-This repository contains a TikTok clone built using Flutter and GetX for state management. The app mimics the core functionalities of TikTok, providing a platform to upload and view short videos.
+This repository contains a TikTok clone built using Flutter, with GetX for state management and Firebase for backend services. The app mimics the core functionalities of TikTok, providing a platform to upload and view short videos.
 
 ## Table of Contents
 
@@ -10,15 +10,16 @@ This repository contains a TikTok clone built using Flutter and GetX for state m
   - [Installation](#installation)
   - [Running the Project](#running-the-project)
 - [Project Structure](#project-structure)
+- [Firebase Setup](#firebase-setup)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Features
 
-- User authentication
-- Video upload
-- Video feed
+- User authentication (Firebase Auth)
+- Video upload and storage (Firebase Storage)
+- Real-time video feed (Firebase Firestore)
 - Like, comment, and share functionality
 - User profile management
 
@@ -32,13 +33,14 @@ Follow these instructions to get a copy of the project up and running on your lo
 - [Dart 3.4.3](https://dart.dev/get-dart)
 - An IDE such as [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
+- Firebase project setup (see [Firebase Setup](#firebase-setup))
 
 ### Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/tiktokclone.git
-    cd tiktokclone
+    git clone https://github.com/ZoeMohamed/TiktokClone.git
+    cd TiktokClone
     ```
 
 2. Install dependencies:
